@@ -1,12 +1,9 @@
-# Prog. 015 Write a function to split a string at lowercase letters.
-
-str=input("enter any mix lowercase and uppercase char of string : ")
+import re
 
 def split_str_at_lowercase(str):
-    s=str
-    part=""
-    result=[]
-
-    for char in s:
-        if 'a' <= char <= 'z':
-            part+=char
+    result = re.split(r'[a-z]+', str)
+    if '' in result:
+        result.remove('')
+    return result
+str=input("enter any mix lowercase and uppercase char of string : ")         
+print(split_str_at_lowercase(str))
