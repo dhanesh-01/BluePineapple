@@ -1,0 +1,10 @@
+.outer-div{
+    margin: 220px 600px 600px 600px;
+    padding: 100px;
+    background-color: aquamarine;
+}
+.inner-div{
+    margin-top: 20px;
+    padding: 30px;
+    background-color:chartreuse;
+}

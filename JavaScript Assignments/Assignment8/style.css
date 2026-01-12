@@ -1,0 +1,10 @@
+.box{
+    background-color: lightblue;
+}
+.highlight{
+    background-color: red;
+}
+div{
+    margin: 220px 600px 600px 600px;
+    padding: 100px;
+}
