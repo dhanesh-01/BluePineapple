@@ -1,0 +1,1 @@
+merged_df=pd.to_datetime(merged_df[['signup_date','order_date']])
